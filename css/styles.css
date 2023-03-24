@@ -1,0 +1,156 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    background-color: #fff;
+    font-size: 16px;
+    /*Font-size 16px is used most often. */
+}
+
+button:hover,
+button:focus {
+    background-color: #fff;
+    background-color: #2196f3;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.menu-background-color {
+    color: #fff;
+}
+.list-primary-item {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.contact {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.14;
+}
+a:hover,
+a:focus {
+    color: #2196f3;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    color: #2196f3;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.big-button {
+    color: #fff;
+    background-color: #2196f3;
+    font-weight: 700;
+    line-height: 1.875;
+    text-align: center;
+}
+
+.big-button:hover,
+.big-button:focus {
+    color: #fff;
+    background-color: #2196f3;
+    font-weight: 700;
+}
+.banner {
+    background-color: #2f303a;
+}
+
+.highlight {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.highlight-desc {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+img {
+    width: 370px;
+    height: 294px;
+}
+
+.person-pic {
+    width: 270px;
+    height: 260px;
+}
+
+.person-space {
+    width: 270px;
+    height: 368px;
+}
+
+.our-team-section {
+    background-color: #f5f4fa;
+}
+.name {
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+.function {
+    color: #757575;
+    line-height: 1.17;
+}
+
+address {
+    font-style: normal;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.41;
+}
+
+footer {
+    background-color: #2f303a;
+}
+
+.filter {
+    font-weight: 500;
+    line-height: 1.63;
+}
+
+.example-offer-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.example-offer-category {
+    color: #757575;
+    line-height: 1.875;
+}
+
+.menu {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
