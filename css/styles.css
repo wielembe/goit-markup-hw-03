@@ -6,6 +6,10 @@ body {
     /*Font-size 16px is used most often. */
 }
 
+.container {
+    width: 1600px;
+}
+
 button:hover,
 button:focus {
     background-color: #fff;
@@ -21,6 +25,11 @@ li {
 }
 
 .menu-background-color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
     color: #fff;
 }
 .list-primary-item {
@@ -29,11 +38,17 @@ li {
     font-weight: 500;
     line-height: 1.14;
 }
+.nav-menu {
+    display: flex;
+    text-align: flex-start;
+    justify-content: space-between;
+}
 
 .contact {
     color: #757575;
     font-size: 14px;
     line-height: 1.14;
+    align-items: flex-end;
 }
 a:hover,
 a:focus {
@@ -54,14 +69,24 @@ h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    margin: 0 auto;
+    width: 696px;
+
+    text-align: center;
+    padding-top: 200px;
+    letter-spacing: 0.06em;
 }
 
 .big-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
     color: #fff;
     background-color: #2196f3;
     font-weight: 700;
     line-height: 1.875;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .big-button:hover,
@@ -72,9 +97,20 @@ h1 {
 }
 .banner {
     background-color: #2f303a;
+    height: 600px;
+}
+
+.highlight-display {
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+    justify-cotent: space-between;
 }
 
 .highlight {
+    flex-basis: calc(100% / 5);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
