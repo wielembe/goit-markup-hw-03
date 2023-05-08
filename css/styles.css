@@ -7,7 +7,12 @@ body {
 }
 
 .container {
-    width: 1600px;
+    width: 1200px;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 215px;
+    margin-right: 215px;
 }
 
 button:hover,
@@ -24,12 +29,14 @@ li {
     list-style: none;
 }
 
-.menu-background-color {
+.menu-block {
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+
     align-items: center;
+
     justify-content: space-between;
-    padding: 10px;
+
     color: #fff;
 }
 .list-primary-item {
@@ -38,17 +45,32 @@ li {
     font-weight: 500;
     line-height: 1.14;
 }
+
 .nav-menu {
     display: flex;
-    text-align: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
+.menu {
+    display: flex;
+}
+
+.contact-up {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
 .contact {
     color: #757575;
     font-size: 14px;
     line-height: 1.14;
-    align-items: flex-end;
 }
 a:hover,
 a:focus {
@@ -56,6 +78,7 @@ a:focus {
 }
 
 .logo {
+    display: flex;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     font-size: 26px;
@@ -101,12 +124,10 @@ h1 {
 }
 
 .highlight-display {
-    max-width: 1170px;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 10px;
-    justify-cotent: space-between;
+
+    justify-content: space-between;
 }
 
 .highlight {
@@ -117,6 +138,7 @@ h1 {
 }
 
 .highlight-desc {
+    text-align: left;
     color: #757575;
     font-weight: 400;
     font-size: 14px;
@@ -124,16 +146,27 @@ h1 {
 }
 
 h2 {
+    padding-top: 94px;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
 }
 
+.we-do-pics {
+    display: flex;
+    margin-left: 0px;
+
+    gap: 30px;
+    justify-content: space-between;
+}
 img {
     width: 370px;
     height: 294px;
 }
 
+.team-background {
+    background-color: #f5f4fa;
+}
 .person-pic {
     width: 270px;
     height: 260px;
@@ -145,7 +178,8 @@ img {
 }
 
 .our-team-section {
-    background-color: #f5f4fa;
+    display: flex;
+    gap: 30px;
 }
 .name {
     font-weight: 500;
@@ -182,11 +216,4 @@ footer {
 .example-offer-category {
     color: #757575;
     line-height: 1.875;
-}
-
-.menu {
-    color: #212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
 }
